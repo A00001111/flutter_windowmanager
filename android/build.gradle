@@ -24,10 +24,11 @@ apply plugin: 'com.android.library'
 android {
     namespace = "io.adaptant.labs.flutter_windowmanager"
 
-    compileSdkVersion 28
+    compileSdkVersion 33
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 21
+        targetSdkVersion 33
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
